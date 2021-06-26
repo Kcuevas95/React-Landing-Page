@@ -2,7 +2,8 @@ import React from "react";
 
 export const Card = () => {
 	return (
-		<div className="col-md-3 col-12">
+		// <div className="col-md-3 col-12">
+		<div className="body">
 			<div className="card" style={{ minWidth: "12rem" }}>
 				<img
 					className="card-img-top"
