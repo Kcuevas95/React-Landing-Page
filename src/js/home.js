@@ -18,7 +18,9 @@ export const Home = () => {
 					<Card />
 				</div>
 			</div>
-			<Footer />
+			<div>
+				<Footer />
+			</div>
 		</div>
 	);
 };
