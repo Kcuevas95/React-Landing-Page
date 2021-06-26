@@ -8,13 +8,16 @@ export const Footer = () => {
 		height: "auto"
 	};
 
+	let text = {
+		fontSize: "12px",
+		margin: "auto"
+	};
+
 	return (
 		<nav
 			className="navbar navbar-expand-lg navbar-light bg-dark"
 			style={footerStyle}>
-			<h1
-				className="text-white bg-dark"
-				style={{ fontSize: "12px", margin: "auto" }}>
+			<h1 className="text-white bg-dark" style={text}>
 				Copyright @ Your Website 2021
 			</h1>
 		</nav>
